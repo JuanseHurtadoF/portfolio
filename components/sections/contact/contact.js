@@ -15,9 +15,11 @@ const Contact = () => {
         <Button>Say hello</Button>
       </div>
       <div className={styles.links}>
-        <CustomLink>Github</CustomLink>
-        <CustomLink>LinkedIn</CustomLink>
-        <CustomLink>Twitter/X</CustomLink>
+        <CustomLink href="https://github.com/JuanseHurtadoF">Github</CustomLink>
+        <CustomLink href="https://www.linkedin.com/in/juansehurtado/">
+          LinkedIn
+        </CustomLink>
+        <CustomLink href="https://twitter.com/JuanseHF">Twitter/X</CustomLink>
       </div>
     </div>
   );
