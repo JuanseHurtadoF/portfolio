@@ -8,6 +8,9 @@ export const metadata = {
   title: "Juanse Hurtado",
   description:
     "With over 5 years of combined experience, I'm a Full-stack developer skilled in building web applications, with a solid background in digital marketing.  ",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({ children }) {
