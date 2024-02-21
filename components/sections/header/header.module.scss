@@ -1,0 +1,11 @@
+.header {
+  display: grid;
+  grid-template-columns: 16rem auto;
+  grid-gap: 2rem;
+
+  .info {
+    > :last-child {
+      margin-top: 1.6rem;
+    }
+  }
+}

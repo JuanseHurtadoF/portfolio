@@ -1,0 +1,26 @@
+.link {
+  cursor: pointer;
+  display: flex;
+  color: var(--color-text);
+  font-size: 2rem;
+  width: max-content;
+  text-align: center;
+  color: var(--color-subtitle);
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  .icon {
+    margin-left: 1rem;
+    transform: rotate(-45deg);
+    scale: 1.2;
+    transition: all 0.2s;
+  }
+
+  &:hover {
+    .icon {
+      transform: rotate(-45deg) translateX(20%);
+    }
+  }
+}

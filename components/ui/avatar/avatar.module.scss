@@ -1,0 +1,14 @@
+.container {
+  width: 16rem;
+  height: 16rem;
+  border-radius: 50%;
+  background-color: black;
+  padding: 3.2rem;
+  padding-bottom: 1.2rem;
+  border: 2px solid var(--color-border);
+
+  .avatar {
+    width: 100%;
+    transform: rotate(5deg);
+  }
+}
