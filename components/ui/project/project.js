@@ -13,7 +13,7 @@ const Project = ({ src, alt, title, description, spanColumns, link }) => {
           <img className={styles.img} alt={alt} src={src}></img>
         </div>
         <div className={styles.details}>
-          <h4 className={styles.projectTitle}>{title}</h4>
+          <p className={styles.projectTitle}>{title}</p>
           <p className={styles.projectDescription}>{description} </p>
         </div>
       </div>
