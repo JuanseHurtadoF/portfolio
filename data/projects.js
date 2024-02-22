@@ -6,7 +6,6 @@ export const projects = [
     description:
       "An open source React component library for building scalable applications.",
     link: "https://betterui.io",
-    spanColumns: 2,
   },
   {
     src: "/projects/kanban.webp",

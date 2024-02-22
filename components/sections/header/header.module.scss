@@ -3,9 +3,18 @@
   grid-template-columns: 16rem auto;
   grid-gap: 2rem;
 
+  @media (max-width: 1000px) {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+
   .info {
     > :last-child {
       margin-top: 1.6rem;
+    }
+    @media (max-width: 1000px) {
+      text-align: center;
     }
   }
 }

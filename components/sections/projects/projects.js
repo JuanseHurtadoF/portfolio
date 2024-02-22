@@ -17,7 +17,6 @@ const Projects = () => {
               title={title}
               description={description}
               link={link}
-              spanColumns={spanColumns ? spanColumns : null}
             />
           );
         })}

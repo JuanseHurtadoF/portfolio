@@ -6,6 +6,14 @@
   width: max-content;
   text-align: center;
   color: var(--color-subtitle);
+  @media (max-width: 800px) {
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media (max-width: 800px) {
+    font-size: 1.8rem;
+  }
 
   &:hover {
     text-decoration: underline;
@@ -16,6 +24,9 @@
     transform: rotate(-45deg);
     scale: 1.2;
     transition: all 0.2s;
+    @media (max-width: 800px) {
+      margin-left: 0.2rem;
+    }
   }
 
   &:hover {

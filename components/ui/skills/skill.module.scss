@@ -7,6 +7,12 @@
   width: fit-content;
   flex: 1 0 auto;
 
+  @media (max-width: 800px) {
+    padding: 0.6rem 1rem;
+    flex: unset;
+    width: 100%;
+  }
+
   .label {
     display: flex;
     justify-content: center;
@@ -14,6 +20,9 @@
     color: var(--color-text);
     font-weight: 300;
     line-height: 140%;
-    min-width: 8rem;
+
+    @media (max-width: 800px) {
+      min-width: 4rem;
+    }
   }
 }

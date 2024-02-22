@@ -3,5 +3,9 @@
   .text {
     display: grid;
     gap: 1.6rem;
+
+    @media (max-width: 800px) {
+      gap: 1.2rem;
+    }
   }
 }

@@ -11,6 +11,10 @@
     border-radius: 50%;
     background-color: black;
     border: 2px solid var(--color-border);
+    @media (max-width: 800px) {
+      width: 6rem;
+      height: 6rem;
+    }
     .img {
       width: 100%;
       padding: 1.8rem;
@@ -29,6 +33,10 @@
       line-height: 140%;
       letter-spacing: 0.01em;
       margin-bottom: 0.4rem;
+      @media (max-width: 800px) {
+        font-size: 1.8rem;
+        line-height: 120%;
+      }
     }
     .roleInfo {
       font-size: 1.6rem;
@@ -37,6 +45,9 @@
       line-height: 140%;
       letter-spacing: 0.02em;
       color: rgb(183, 184, 204);
+      @media (max-width: 800px) {
+        font-size: 1.5rem;
+      }
     }
   }
 }
