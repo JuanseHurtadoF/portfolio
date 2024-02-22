@@ -2,7 +2,7 @@ export const projects = [
   {
     src: "/projects/betterui.webp",
     alt: "Better UI",
-    title: "BetterUI.io",
+    title: "BetterUI.io - Coming Soon",
     description:
       "An open source React component library for building scalable applications.",
     link: "https://betterui.io",
